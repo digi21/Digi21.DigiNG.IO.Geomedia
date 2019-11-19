@@ -10,6 +10,7 @@
     <license type="expression">MIT</license>
     <icon>IconoDigi21.png</icon>
     <projectUrl>http://digi3d.net/</projectUrl>
+    <repository type="git" url="https://github.com/digi21/Digi21.DigiNG.IO.Geomedia.git" branch="master" commit="a2c3d18d58bb022d17409c30ccf5662588508b58"/>
     <description>This package contains runtime assemblies for reading/creating Geomedia Datawarehouse (*.MDB) files on computers with Digi3D.NET installed.
 
 A Digi3D.NET license is required to run applications that use the assemblies published by this package. Rent a license at https://www.digi21.net/Tienda/Alquiler or buy a license at https://www.digi21.net/Tienda/Compra</description>
