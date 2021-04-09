@@ -1,8 +1,8 @@
-﻿using Digi21.Digi3D;
-using Digi21.DigiNG.Entities;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Digi21.DigiNG.Entities;
+using Digi21.Tasks;
 
 namespace Digi21.DigiNG.IO.Geomedia
 {
