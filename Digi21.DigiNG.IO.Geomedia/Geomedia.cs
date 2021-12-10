@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Digi21.DigiNG.Entities;
+using Digi21.Math;
 using Digi21.Tasks;
 
 namespace Digi21.DigiNG.IO.Geomedia
@@ -38,5 +39,26 @@ namespace Digi21.DigiNG.IO.Geomedia
         public bool CanRead => throw null;
         public string Path => throw null;
         public string ConnectionString => throw null;
+        #region IWindow3D
+        public Point3D W => throw null;
+        public Point3D SW => throw null;
+        public Point3D S => throw null;
+        public Point3D SE => throw null;
+        public Point3D E => throw null;
+        public Point3D NE => throw null;
+        public Point3D N => throw null;
+        public Point3D NW => throw null;
+        public Point3D Center => throw null;
+        public double Depth => throw null;
+        public double Height => throw null;
+        public double Width => throw null;
+        public bool Valid => throw null;
+        public double Zmax => throw null;
+        public double Ymax => throw null;
+        public double Xmax => throw null;
+        public double Zmin => throw null;
+        public double Ymin => throw null;
+        public double? Xmin => throw null;
+        #endregion
     }
 }
