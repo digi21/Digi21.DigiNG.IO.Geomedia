@@ -40,6 +40,7 @@ namespace Digi21.DigiNG.IO.Geomedia
         public bool CanRead => throw null;
         public string Path => throw null;
         public string ConnectionString => throw null;
+        public int IndexOf(Entity entity) => throw null;
         #region IWindow3D
         public Point3D W => throw null;
         public Point3D SW => throw null;
