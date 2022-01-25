@@ -34,6 +34,7 @@ namespace Digi21.DigiNG.IO.Geomedia
         public IEnumerator<Entity> GetEnumerator() => throw null;
         IEnumerator IEnumerable.GetEnumerator() => throw null;
         public string Wkt => throw null;
+        public bool Visible { get => throw null; set => throw null; }
         public IDictionary<string, int> DatabaseTables => throw null;
         public bool CanWrite => throw null;
         public bool CanRead => throw null;
